@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body{
+    scroll-behavior:smooth;
+    background: url();
+}
+
+header{
+    background-color: rgba(216, 231, 255, 0.595);
+    backdrop-filter: blur(10px);
+    border-radius: 9px;
+    margin-top:-5rem;
+    height: fit-content;
+}
+.cursor{
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    border: non;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    background: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    background-size: 240% 240%;
+    animation: gradient-animation 12s ease infinite;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .1s;
+    z-index: -10;
+    transition: transform ease 0.5s;
+}.cursor2{
+    position: fixed;
+    width: 250px;
+    height: 250px;
+    border: none;
+    border-radius: 50%;
+    left: 65%;
+    top: 40%;
+    background: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    background-size: 240% 240%;
+    animation: gradient-animation 12s ease infinite;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .14s;
+    z-index: -11;
+}.cursor3{
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 50%;
+    left: 80%;
+    top: 70%;
+    background: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    background-size: 240% 240%;
+    animation: gradient-animation 12s ease infinite;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .18s;
+    z-index: -12;
+}.cursor4{
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 50%;
+    left: 30%;
+    top: 30%;
+    background: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    background-size: 240% 240%;
+    animation: gradient-animation 12s ease infinite;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .22s;
+    z-index: -13;
+}.cursor5{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+    left: 20%;
+    top: 40%;
+    background: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    background-size: 240% 240%;
+    animation: gradient-animation 12s ease infinite;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .26s;
+    z-index: -14;
+}
+.gradient-background {
+    
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    25% {
+        background-position: 100% 50%;
+    }
+    50% {
+      background-position: 0% 50%;
+    }
+    75% {
+        background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+h2{
+    font-family: Poppins;
+    font-size: 2rem;
+}
+header h1{
+    font-family: Poppins;
+    font-size: 7em;
+    text-align: center;
+    background: linear-gradient(to right, #00d9ff 0%,#001aff 90%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.school,.college,.my-hobbies,.work-experience,.known-languages{
+    text-align: center;
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+.contents{
+    display: flex;
+    justify-content: space-evenly;
+}
+.kl-contents{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+.kl-card-text{
+    margin-top: -2em;
+}
+.card{
+    font-family: Poppins;
+    position: relative;
+    width: 20rem;
+    background: rgba(216, 231, 255, 0.5);
+    border-radius: 1em;    
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.248));
+    backdrop-filter: blur(10px);
+}
+
+.card-body{
+    padding: 2rem;
+}
+
+.card-image{
+    width: 30%;
+    position: absolute;
+    left:50%;
+    top:0;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    z-index: 2;
+    filter: drop-shadow(0px 0px 5px black);
+}
+
+img{ width: 100%;}
+
+.card-title{
+    color: black;
+    text-transform: uppercase;
+}
+
+.card-body{
+    text-align: center;
+
+}
+
+.horizontal-card{
+    font-family: Poppins;
+    position: relative;
+    width: 20rem;
+    background: rgba(216, 231, 255, 0.5);
+    border-radius: 1em;    
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.248));
+    backdrop-filter: blur(10px);
+}
+
+.horizontal-card-image{
+    transform: translate(-225%,30%);
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
+}
+
+.background-blur{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.0);
+    backdrop-filter: blur(50px);
+    pointer-events: none;
+    z-index: -9;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+p{
+    text-align: center;
+    font-family: "Poppins";
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+canvas{
+    position: fixed;
+    z-index: -10;
+}
+
+.contact{
+padding-top: 4rem;
+}
+
+.contact p{
+    text-align: left;
+    padding-left: 2rem;
+}
+
+.copyright p {
+    font-family: "Poppins";
+    text-align:left;
+    transform: translate(-20%,0%);
+}
+
+@media screen and (max-width : 600px){
+    header{
+        margin-top: -2rem;
+        left: 0;
+        top: 0;
+    }
+    header h1{
+        font-size: 3rem;
+        padding: 3rem;
+    }
+    .kl-contents{
+        flex-direction: column;
+        transform: scale(0.7);
+        margin-top: -12rem;
+        align-items: center;
+    }
+    .horizontal-card{
+        margin-top: 3rem;
+    }
+    .contents{
+        transform: scale(0.7);
+        flex-direction: column;
+        margin-top:-19rem;
+        align-items: center;
+    }
+    .card{
+        margin-top: 9rem;
+        
+    }
+    .school{
+        margin-top: -2rem;
+        margin-bottom: 9rem;
+    }
+   .college{
+        margin-top: -2rem;
+        margin-bottom: 12rem;
+    }
+    .contact{
+        margin-top: -9em;
+    }
+}
+
+
+
